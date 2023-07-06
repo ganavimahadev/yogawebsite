@@ -1,0 +1,147 @@
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  /* Top left text */
+.top-left {
+    position: absolute;
+    top: 30px;
+    left: 16px;
+    font-size: x-large;
+  }
+  
+  /* Style the navigation menu */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  width: 30%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color:#3c181f;
+}
+
+/* Style the current/active link */
+.navbar a.active {
+  background-color: #3c181f;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+.top{
+  text-align: justify;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 50vh;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+ 
+}
+
+.one
+{
+  background-color:#837649 ;
+}
+
+.nav {
+  display: block;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  place-items: center;
+}
+
+.btn {
+  color: white;
+  background-color:#555;
+  height: 14px;
+  width: 90px;
+  padding: 2px;
+  text-decoration: none;
+}
+span{
+  color: black;
+  font-size:x-large;
+}
+.three{
+  background-color:#837649 ;
+  display: block;
+}
+.in{
+  text-align: justify;
+}
+.n{
+  text-align: center;
+  font-size: xx-large;
+  color: black;
+  font-family: Papyrus,fantasy; 
+
+}
+.class{
+  text-align:center;
+  font-size: xx-large;
+  font-family: Papyrus,fantasy; 
+
+}
+.class1{
+  font-size: x-large;
+}
+.con{
+  text-align: center;
+  font-size: xx-large;
+  color: black;
+  height: 50px; 
+}
+ a:hover{
+  background-color: #555;
+}
+.final{
+ background-color: rgba(101, 84, 86, 0.088);
+ height: 200%;
+ text-align: center;
+ padding-top: 50px;
+}
+.a{
+  font-family: Brush Script MT,cursive; 
+  font-size: xx-large;
+
+}
+.b{
+  font-family: Papyrus,fantasy; 
+}
